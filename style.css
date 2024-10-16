@@ -255,3 +255,9 @@ footer{
     color: rgb(26, 11, 11);
     transform: translateY(-10px);
 }
+.backImg{
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+}
