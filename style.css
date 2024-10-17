@@ -1,6 +1,62 @@
-@media screen and (max-width: 500px) {
+/* Стилі для мобільних пристроїв */
+@media (max-width: 600px) {
     body{
-        font-size: 0.75em;
+        width: 200vw;
+        font-size: 0.3em;
+        opacity: 1;
+    }
+    .Ivan{
+        font-size: 0.5em;
+    }
+    .about{
+        overflow-x: hidden;
+        transform: translate(0, 0);
+        visibility: visible;
+        opacity: 1;
+        font-size: 5em;
+    }
+    .aboutTwo{
+        opacity: 1;
+        font-size: 0.5em;
+    }
+    .aboutThree{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    .ivanPhoto{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    .booker{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    .diskPhoto{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    .firstBlock{
+        width: 90vw;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .secondBlock{
+        width: 90vw;
+    }
+    .thirdBlock{
+        width: 90vw;
+    }
+}
+
+/* Стилі для планшетів */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 1.75em;
     }
 }
 *{
