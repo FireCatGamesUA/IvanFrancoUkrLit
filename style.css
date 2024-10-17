@@ -48,17 +48,6 @@
         width: 90vw;
     }
 }
-
-/* Стилі для планшетів */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 15px;
-    }
-
-    h1 {
-        font-size: 1.75em;
-    }
-}
 *{
     box-sizing: border-box;
     margin: 0;
